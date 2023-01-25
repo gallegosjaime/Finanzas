@@ -12,7 +12,6 @@ namespace Finanzas
         public App()
         {
             InitializeComponent();
-
             DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
         }
