@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 using Xamarin.Essentials;
+using Finanzas.Views;
 using Xamarin.Forms;
 
 namespace Finanzas.ViewModels
@@ -10,9 +11,9 @@ namespace Finanzas.ViewModels
         public AboutViewModel()
         {
             Title = "About";
-            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
+
         }
 
-        public ICommand OpenWebCommand { get; }
     }
 }
+

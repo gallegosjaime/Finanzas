@@ -13,6 +13,7 @@ namespace Finanzas
             InitializeComponent();
             Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
             Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
+            Routing.RegisterRoute(nameof(Ingresos), typeof(Ingresos));
         }
 
         private async void OnMenuItemClicked(object sender, EventArgs e)

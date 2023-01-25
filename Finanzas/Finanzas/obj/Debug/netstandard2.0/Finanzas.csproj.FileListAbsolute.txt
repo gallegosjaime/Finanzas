@@ -30,7 +30,6 @@ C:\Users\jaime\Downloads\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\ne
 C:\Users\jaime\Downloads\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
 C:\Users\jaime\Downloads\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
 C:\Users\jaime\Downloads\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
-C:\Users\jaime\Downloads\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
 C:\Users\jaime\Downloads\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Finanzas.AssemblyInfoInputs.cache
 C:\Users\jaime\Downloads\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Finanzas.AssemblyInfo.cs
 C:\Users\jaime\Downloads\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Finanzas.csproj.CoreCompileInputs.cache
@@ -38,3 +37,5 @@ C:\Users\jaime\Downloads\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\ne
 C:\Users\jaime\Downloads\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Finanzas.dll
 C:\Users\jaime\Downloads\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\ref\Finanzas.dll
 C:\Users\jaime\Downloads\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Finanzas.pdb
+C:\Users\jaime\Downloads\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\jaime\Downloads\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Views\Ingresos.xaml.g.cs
