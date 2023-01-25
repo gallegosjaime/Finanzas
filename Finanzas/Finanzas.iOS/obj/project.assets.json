@@ -997,11 +997,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jaime\\Downloads\\Finanzas-master\\Finanzas\\Finanzas\\Finanzas.iOS\\Finanzas.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\jaime\\Downloads\\joel-Finanzas-master\\Finanzas-master\\Finanzas\\Finanzas\\Finanzas.iOS\\Finanzas.iOS.csproj",
       "projectName": "Finanzas.iOS",
-      "projectPath": "C:\\Users\\jaime\\Downloads\\Finanzas-master\\Finanzas\\Finanzas\\Finanzas.iOS\\Finanzas.iOS.csproj",
+      "projectPath": "C:\\Users\\jaime\\Downloads\\joel-Finanzas-master\\Finanzas-master\\Finanzas\\Finanzas\\Finanzas.iOS\\Finanzas.iOS.csproj",
       "packagesPath": "C:\\Users\\jaime\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jaime\\Downloads\\Finanzas-master\\Finanzas\\Finanzas\\Finanzas.iOS\\obj\\",
+      "outputPath": "C:\\Users\\jaime\\Downloads\\joel-Finanzas-master\\Finanzas-master\\Finanzas\\Finanzas\\Finanzas.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1022,8 +1022,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\jaime\\Downloads\\Finanzas-master\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj": {
-              "projectPath": "C:\\Users\\jaime\\Downloads\\Finanzas-master\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj"
+            "C:\\Users\\jaime\\Downloads\\joel-Finanzas-master\\Finanzas-master\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj": {
+              "projectPath": "C:\\Users\\jaime\\Downloads\\joel-Finanzas-master\\Finanzas-master\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj"
             }
           }
         }

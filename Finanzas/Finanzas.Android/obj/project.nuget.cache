@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3MG6nJTxOP3Jilaiu3OjLq1/oX2Q12HLpoTzB7d/ZjAJS2gZWKdFlmRDFob9TpMT6txczspcBo3UzvuY5Fe6iw==",
+  "dgSpecHash": "DFUz6/UsW7CMOE5RYoPAqIjpGRnZk3gQllEDqN2XCW1wNv0VKMSBuSPAbhdFIjb5eKcAg77HHFSjA9j+NiW9vA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaime\\Downloads\\Finanzas-master\\Finanzas\\Finanzas\\Finanzas.Android\\Finanzas.Android.csproj",
+  "projectFilePath": "C:\\Users\\jaime\\Downloads\\joel-Finanzas-master\\Finanzas-master\\Finanzas\\Finanzas\\Finanzas.Android\\Finanzas.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaime\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",

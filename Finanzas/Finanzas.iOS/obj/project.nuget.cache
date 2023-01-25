@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DHd30yISAXBOU03hz28RgFNXnqDpuv+OeAlE6Tu7ea9uYOkz3Kbxcb/43dMxgaTl0/6t3ndKgW1hqHlMA0fKyw==",
+  "dgSpecHash": "G1fihk+3mBxsKwHakFm63jWXrzuxEOydye4XJynwM1zT9iFLMUSFzJJb/1IJi8oah5wNTr1U6u3zAgcyFzUpgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaime\\Downloads\\Finanzas-master\\Finanzas\\Finanzas\\Finanzas.iOS\\Finanzas.iOS.csproj",
+  "projectFilePath": "C:\\Users\\jaime\\Downloads\\joel-Finanzas-master\\Finanzas-master\\Finanzas\\Finanzas\\Finanzas.iOS\\Finanzas.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaime\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
