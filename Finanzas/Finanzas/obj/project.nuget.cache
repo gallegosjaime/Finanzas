@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "S+70YLU5CA3syfU+xKjV27fPj2bRRzgWzrOhZnkC0SE0AQYkM3dqjcdFa+DTdBFcxrNArSD24c8gzY5WxilpYg==",
+  "dgSpecHash": "nVW+4pMql4vIeZfitnu8mJ17+pVD0nIqdMrnwL4LaGn3XRZ638snLup8F8RVbUmudzsMNM+EBEYY6Hbbd0eRPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaime\\Downloads\\Finanzas-master\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj",
+  "projectFilePath": "C:\\Users\\JoelR\\Desktop\\Finanzas-master\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\jaime\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\jaime\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Users\\JoelR\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\JoelR\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\JoelR\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\JoelR\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\JoelR\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []
 }
