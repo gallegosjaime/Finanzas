@@ -17,7 +17,16 @@ namespace Finanzas.Views
             InitializeComponent();
       
         }
- 
+        private void NewEntry(object sender, EventArgs e)
+        {
+            Navigation.PopAsync();
+           
+        }
+
+        private void backToHome(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AboutPage());
+        }
 
     }
 }
