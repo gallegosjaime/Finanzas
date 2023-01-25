@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Finanzas.Views.RegPage"
+             Shell.NavBarIsVisible="False">
+    <ContentPage.Content>
+        <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
+            <Entry Placeholder="Username" TextColor="Black" PlaceholderColor="Gray"></Entry>
+            <Entry Placeholder="Email" TextColor="Black" PlaceholderColor="Gray"></Entry>
+            <Entry Placeholder="Password" IsPassword="True" TextColor="Black" PlaceholderColor="Gray"></Entry>
+            <Entry Placeholder="ConfirmPassword" IsPassword="True" TextColor="Black" PlaceholderColor="Gray"></Entry>
+            <Button VerticalOptions="Center" Text="Register" Command="{Binding RegCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

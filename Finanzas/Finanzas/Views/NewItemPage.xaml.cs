@@ -15,7 +15,7 @@ namespace Finanzas.Views
         public NewItemPage()
         {
             InitializeComponent();
-            BindingContext = new NewItemPage();
+            BindingContext = new NewItemViewModel();
         }
     }
 }
