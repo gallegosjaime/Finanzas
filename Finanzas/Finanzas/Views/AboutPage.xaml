@@ -42,12 +42,23 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Button Margin="0,10,0,0" Text="Saldo Neto"
-                        Command="{Binding OpenWebCommand}"
-                        BackgroundColor="{StaticResource Primary}"
-                        TextColor="White" />
             </StackLayout>
         </ScrollView>
+        <StackLayout Grid.Row="1" VerticalOptions="End" HorizontalOptions="FillAndExpand" BackgroundColor="Aqua" Margin="0,0,0,10">
+            <StackLayout Orientation="Horizontal">
+                <Button Padding="25" Text="Agregar Gastos" HorizontalOptions="StartAndExpand"  Margin="10,0,0,0"
+                        Command="{Binding OpenIngresos}"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White"
+                    
+                    />
+                <Button Padding="25"  Text="Agregar ingresos" HorizontalOptions="EndAndExpand" Margin="0,0,10,0"
+                        Clicked="ingresos"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White"
+                    />
+            </StackLayout>
+        </StackLayout>
     </Grid>
 
 </ContentPage>
