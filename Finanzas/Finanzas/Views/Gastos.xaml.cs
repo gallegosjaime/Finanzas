@@ -10,12 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace Finanzas.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Ingresos : ContentPage
+    public partial class Gastos : ContentPage
     {
-        public Ingresos()
+        public Gastos()
         {
             InitializeComponent();
-      
         }
         private void NewEntry(object sender, EventArgs e)
         {

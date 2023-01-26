@@ -82,3 +82,4 @@ C:\Users\jaime\Downloads\joel-Finanzas-master\Finanzas-master\Finanzas\Finanzas\
 C:\Users\jaime\Downloads\joel-Finanzas-master\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Finanzas.dll
 C:\Users\jaime\Downloads\joel-Finanzas-master\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\ref\Finanzas.dll
 C:\Users\jaime\Downloads\joel-Finanzas-master\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Finanzas.pdb
+C:\Users\jaime\Downloads\joel-Finanzas-master\Finanzas-master\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Views\Gastos.xaml.g.cs

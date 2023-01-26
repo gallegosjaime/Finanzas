@@ -15,5 +15,9 @@ namespace Finanzas.Views
         {
             Navigation.PushAsync(new Ingresos());
         }
+        private void gastos(object obj, EventArgs e)
+        {
+            Navigation.PushAsync(new Ingresos());
+        }
     }
 }
