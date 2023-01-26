@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Finanzas.Views.AboutPage"
              xmlns:vm="clr-namespace:Finanzas.ViewModels"
-             Title="{Binding Title}">
+             Title="Monto">
     
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
@@ -24,7 +24,7 @@
         <StackLayout Grid.Row="1" VerticalOptions="End" HorizontalOptions="FillAndExpand"  Margin="0,0,0,10">
             <StackLayout Orientation="Horizontal">
                 <Button Padding="25" Text="Agregar Gastos" HorizontalOptions="StartAndExpand"  Margin="10,0,0,0"
-                        Command="{Binding OpenIngresos}"
+                        Clicked="gastos"
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White"
                     
