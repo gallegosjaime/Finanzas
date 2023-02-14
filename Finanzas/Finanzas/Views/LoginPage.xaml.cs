@@ -17,5 +17,15 @@ namespace Finanzas.Views
             InitializeComponent();
             this.BindingContext = new LoginViewModel();
         }
+
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new RegPage());
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AboutPage());
+        }
     }
 }

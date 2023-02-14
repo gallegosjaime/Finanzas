@@ -23,15 +23,16 @@
         </ScrollView>
         <StackLayout Grid.Row="1" VerticalOptions="End" HorizontalOptions="FillAndExpand"  Margin="0,0,0,10">
             <StackLayout Orientation="Horizontal">
-                <Button Padding="25" Text="Agregar Gastos" HorizontalOptions="StartAndExpand"  Margin="10,0,0,0"
+                <Button CornerRadius="10"  Padding="25" Text="Agregar Gastos" HorizontalOptions="StartAndExpand"  Margin="10,0,0,0"
                         Clicked="gastos"
-                        BackgroundColor="{StaticResource Primary}"
+                        BackgroundColor="#2d3647"
                         TextColor="White"
                     
                     />
-                <Button Padding="25"  Text="Agregar ingresos" HorizontalOptions="EndAndExpand" Margin="0,0,10,0"
+                <Button CornerRadius="10" 
+                    Padding="25"  Text="Agregar ingresos" HorizontalOptions="EndAndExpand" Margin="0,0,10,0"
                         Clicked="ingresos"
-                        BackgroundColor="{StaticResource Primary}"
+                        BackgroundColor="#2d3647"
                         TextColor="White"
                     />
             </StackLayout>

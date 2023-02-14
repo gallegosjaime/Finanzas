@@ -15,7 +15,12 @@ namespace Finanzas.Views
         public RegPage()
         {
             InitializeComponent();
-            this.BindingContext = new RegViewModel();
+        }
+
+        public void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new LoginPage());
+            DisplayAlert("Hola", "Bienvenido a nuestra aplicacion", "OK");
         }
     }
 }
