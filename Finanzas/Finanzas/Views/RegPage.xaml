@@ -12,7 +12,12 @@
             <Entry Placeholder="Email" TextColor="Black" PlaceholderColor="Gray"></Entry>
             <Entry Placeholder="Password" IsPassword="True" TextColor="Black" PlaceholderColor="Gray"></Entry>
             <Entry Placeholder="ConfirmPassword" IsPassword="True" TextColor="Black" PlaceholderColor="Gray"></Entry>
-            <Button VerticalOptions="Center" Text="Register" Command="{Binding RegCommand}"/>
+
+            <Button VerticalOptions="Center" 
+                    Text="Registrar" 
+                    BorderWidth="1.5"
+                    CornerRadius="50"
+                    Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

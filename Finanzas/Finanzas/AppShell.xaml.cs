@@ -20,10 +20,5 @@ namespace Finanzas
         {
             await Shell.Current.GoToAsync("//LoginPage");
         }
-
-        private async void OnRegItemClicked(object sender, EventArgs e)
-        {
-            await Shell.Current.GoToAsync("//RegPage");
-        }
     }
 }

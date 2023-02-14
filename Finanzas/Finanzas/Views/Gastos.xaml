@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Title="Agregar gastos"
+             BackgroundColor="#f5e2d1"
              x:Class="Finanzas.Views.Gastos">
     <ContentPage.Content>
         <StackLayout Spacing="3" Padding="15">
@@ -10,8 +11,8 @@
             <Label Text="Descripcion" FontSize="Medium" />
             <Editor Text="{Binding Description, Mode=TwoWay}" AutoSize="TextChanges" FontSize="Medium" Margin="0" />
             <StackLayout Orientation="Horizontal">
-                <Button Text="Cancelar"  Clicked="backToHome" HorizontalOptions="FillAndExpand"></Button>
-                <Button Text="Guardar" Clicked="NewEntry" HorizontalOptions="FillAndExpand"></Button>
+                <Button TextColor="#9a887c" Text="Cancelar" BackgroundColor="#d7e0e5" Clicked="backToHome" HorizontalOptions="FillAndExpand"></Button>
+                <Button TextColor="#9a887c" Text="Guardar" BackgroundColor="#d7e0e5" HorizontalOptions="FillAndExpand"></Button>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
