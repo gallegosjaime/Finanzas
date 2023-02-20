@@ -18,6 +18,7 @@ namespace Finanzas.Views
 
         public ItemsPage()
         {
+            //Pagina de gastos
             InitializeComponent();
 
             BindingContext = _viewModel = new ItemsViewModel();

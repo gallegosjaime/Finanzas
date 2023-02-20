@@ -27,8 +27,6 @@ namespace Finanzas.Views
         {
             Navigation.PopAsync();
         }
-
-
         private void backToHome(object sender, EventArgs e)
         {
             Navigation.PopAsync();

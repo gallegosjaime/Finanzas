@@ -84,6 +84,11 @@
     <FlyoutItem Title="Historial Nuevo ingreso" Icon="icon_feed.png">
         <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" />
     </FlyoutItem>
+    <FlyoutItem Title="test" Icon="icon_feed.png">
+        <ShellContent Route="Historial">
+            <local:Historial/>
+        </ShellContent>
+    </FlyoutItem>
     <FlyoutItem Title="Historial Gastos" Icon="icon_feed.png">
         <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" />
     </FlyoutItem>

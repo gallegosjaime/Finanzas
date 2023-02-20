@@ -21,7 +21,10 @@
                     <Label Margin="10,0,0,10" TextColor="Black" Text="Descripción" FontSize="Large" />
                     <Frame CornerRadius="10" BackgroundColor="#2d3647" HeightRequest="100" VerticalOptions="Start" Padding="1" >
                         <Frame CornerRadius="10" HeightRequest="100" VerticalOptions="Start" Margin="0" Padding="0" >
-                            <Editor x:Name="descripcion" BackgroundColor="Transparent" Text="{Binding Description, Mode=TwoWay}" AutoSize="TextChanges" FontSize="Large" Margin="0" />
+                            <Editor x:Name="descripcion" BackgroundColor="Transparent"
+                                    AutoSize="TextChanges" FontSize="Large" Margin="0" 
+                                    Text=""
+                                    />
                         </Frame>
                     </Frame>
                 </StackLayout>
