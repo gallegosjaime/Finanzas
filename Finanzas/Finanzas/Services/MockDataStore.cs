@@ -9,6 +9,7 @@ namespace Finanzas.Services
     public class MockDataStore : IDataStore<Item>
     {
         readonly List<Item> items;
+
         public MockDataStore()
         {
             items = new List<Item>()
