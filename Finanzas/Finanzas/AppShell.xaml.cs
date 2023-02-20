@@ -16,6 +16,7 @@ namespace Finanzas
             Navigation.PushAsync(new LoginPage());
         }
 
+       
         private async void OnMenuItemClicked(object sender, EventArgs e)
         {
             await Shell.Current.GoToAsync("//LoginPage");

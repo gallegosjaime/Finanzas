@@ -23,9 +23,14 @@ namespace Finanzas.Views
             Navigation.PushAsync(new RegPage());
         }
 
+        private void TapGestureRecognizer_Tapped2(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ForgotPasswordPage());
+        }
+
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new AboutPage());
+            //Navigation.PushAsync(new AboutPage(""));
         }
     }
 }
