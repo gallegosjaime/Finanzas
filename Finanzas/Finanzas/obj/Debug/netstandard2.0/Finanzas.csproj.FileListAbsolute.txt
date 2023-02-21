@@ -108,6 +108,4 @@ C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Fin
 C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Views\Historial.xaml.g.cs
 C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Views\EditarHistorial.xaml.g.cs
 C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\refint\Finanzas.dll
-C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Views\Historial.xaml.g.cs
-C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Views\EditarHistorial.xaml.g.cs
 C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Views\ForgotPasswordPage.xaml.g.cs
