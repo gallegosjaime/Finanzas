@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6E6J18qBnZg2CuVg41rzCiisRkdLRLUj1G7c2HqlgH4BgnfvXeTOU3mTs3jteoQ/ykcAdz9/zfgWk+hnWI+jyw==",
+  "dgSpecHash": "H8/9LTL3sYPgWW5U5tBr6P4h4X8/xADIVFW0Ynoz8tGKNDck355kZd1v6Oylm2o3Z56sBf+Zt8j2Y3ah3vREfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JoelR\\Desktop\\Finanzas\\Finanzas\\Finanzas.iOS\\Finanzas.iOS.csproj",
+  "projectFilePath": "C:\\Users\\JoelR\\Desktop\\Finanzas2\\Finanzas\\Finanzas.iOS\\Finanzas.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JoelR\\.nuget\\packages\\firebaseauthentication.net\\4.0.2\\firebaseauthentication.net.4.0.2.nupkg.sha512",
     "C:\\Users\\JoelR\\.nuget\\packages\\firebasedatabase.net\\4.2.0\\firebasedatabase.net.4.2.0.nupkg.sha512",

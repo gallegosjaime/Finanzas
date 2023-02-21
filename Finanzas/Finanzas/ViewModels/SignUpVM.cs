@@ -105,7 +105,7 @@ namespace Finanzas.ViewModels
                         else
                             await App.Current.MainPage.DisplayAlert("Error", "Fallo en el registro", "OK");
                     }
-                    catch (Exception ex)
+                    catch (Exception e)
                     {
                         await App.Current.MainPage.DisplayAlert("Error", "Fallo", "OK");
                     }

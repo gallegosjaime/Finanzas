@@ -5342,11 +5342,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JoelR\\Desktop\\Finanzas\\Finanzas\\Finanzas.Android\\Finanzas.Android.csproj",
+      "projectUniqueName": "C:\\Users\\JoelR\\Desktop\\Finanzas2\\Finanzas\\Finanzas.Android\\Finanzas.Android.csproj",
       "projectName": "Finanzas.Android",
-      "projectPath": "C:\\Users\\JoelR\\Desktop\\Finanzas\\Finanzas\\Finanzas.Android\\Finanzas.Android.csproj",
+      "projectPath": "C:\\Users\\JoelR\\Desktop\\Finanzas2\\Finanzas\\Finanzas.Android\\Finanzas.Android.csproj",
       "packagesPath": "C:\\Users\\JoelR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JoelR\\Desktop\\Finanzas\\Finanzas\\Finanzas.Android\\obj\\",
+      "outputPath": "C:\\Users\\JoelR\\Desktop\\Finanzas2\\Finanzas\\Finanzas.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -5367,8 +5367,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\JoelR\\Desktop\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj": {
-              "projectPath": "C:\\Users\\JoelR\\Desktop\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj"
+            "C:\\Users\\JoelR\\Desktop\\Finanzas2\\Finanzas\\Finanzas\\Finanzas.csproj": {
+              "projectPath": "C:\\Users\\JoelR\\Desktop\\Finanzas2\\Finanzas\\Finanzas\\Finanzas.csproj"
             }
           }
         }

@@ -26,7 +26,7 @@ namespace Finanzas.ViewModels
         {
             //Validacion de campos vacios   
 
-            if (string.IsNullOrEmpty(User.Trim()) || string.IsNullOrEmpty(Password))
+            if (string.IsNullOrEmpty(User) || string.IsNullOrEmpty(Password))
                 await App.Current.MainPage.DisplayAlert("Campos vacios", "Introduzca sus datos", "OK");
             else
             {
@@ -41,7 +41,8 @@ namespace Finanzas.ViewModels
                         //pasa usuario a la pagina AboutPage// 
 
                         AboutPage.Username = User;
-                        await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
+                        await App.Current.MainPage.Navigation.PushAsync(new UserPage(User));
+                        //await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
                     }
                     else
                         await App.Current.MainPage.DisplayAlert("Error", "Por favor introducir sus datos de manera correcta", "OK");
