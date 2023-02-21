@@ -2,11 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Finanzas.Views.Ingresos"
-             BackgroundColor="white"
-             NavigationPage.HasNavigationBar="False"
-             Title="Ingresar nuevo monto"
-             xmlns:local="clr-namespace:CurvedEntry"
-             >
+             Title="Ingresar nuevo monto">
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
@@ -40,6 +36,6 @@
                         CornerRadius="6"
                         ></Button>
             </StackLayout>
-        </Grid>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

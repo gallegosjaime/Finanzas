@@ -1,7 +1,4 @@
-﻿using Finanzas.Models;
-using Finanzas.Services;
-using Finanzas.ViewModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,10 +15,9 @@ namespace Finanzas.Views
         public Ingresos()
         {
             InitializeComponent();
+      
         }
-
-        //Método que se manda a llamar cuando se presiona el botón de agregar
-        private async void newEntry(object sender, EventArgs e)
+        private void NewEntry(object sender, EventArgs e)
         {
             //Validar que no estén vacíos
             if (cantidad.Text == "" ||  descripcion.Text == "")
@@ -61,11 +57,11 @@ namespace Finanzas.Views
             }
  
         }
+
         private void backToHome(object sender, EventArgs e)
         {
             Navigation.PopAsync();
         }
-
 
     }
 }

@@ -12,15 +12,13 @@ namespace Finanzas.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class RegPage : ContentPage
     {
+        SignUpVM signUpVM;
         public RegPage()
         {
             InitializeComponent();
-        }
-
-        public void Button_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new LoginPage());
-            DisplayAlert("Hola", "Bienvenido a nuestra aplicacion", "OK");
+            signUpVM = new SignUpVM();
+            //set binding    
+            BindingContext = signUpVM;
         }
     }
 }
