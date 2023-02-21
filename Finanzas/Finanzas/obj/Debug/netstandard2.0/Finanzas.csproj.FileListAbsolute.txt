@@ -105,6 +105,8 @@ C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Xam
 C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Finanzas.dll
 C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\ref\Finanzas.dll
 C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Finanzas.pdb
+C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Views\Historial.xaml.g.cs
+C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Views\EditarHistorial.xaml.g.cs
 C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\refint\Finanzas.dll
 C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Views\Historial.xaml.g.cs
 C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas\obj\Debug\netstandard2.0\Views\EditarHistorial.xaml.g.cs
