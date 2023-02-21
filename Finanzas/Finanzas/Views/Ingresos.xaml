@@ -12,7 +12,7 @@
                 <StackLayout Spacing="3" Padding="15">
                     <Label Margin="10,0,0,10" TextColor="#2d3647" Text="Cantidad" FontSize="Large" />
                     <!-- X:Name es la forma para obtener los datos del "input" desde el C# (cantidad.Text)-->
-                    <Entry x:Name="cantidad"   BackgroundColor="White" Margin="0,0,0,10" BorderColor="black" HorizontalOptions="Start" WidthRequest="200" BorderWidth="4" Text="{Binding Text, Mode=TwoWay}" FontSize="Large" />
+                    <Entry x:Name="cantidad"   BackgroundColor="White" Margin="0,0,0,10" HorizontalOptions="Start" WidthRequest="200" FontSize="Large" />
                     <Label Margin="10,0,0,10" TextColor="Black" Text="Descripción" FontSize="Large" />
                     <Frame CornerRadius="10" BackgroundColor="#2d3647" HeightRequest="100" VerticalOptions="Start" Padding="1" >
                         <Frame CornerRadius="10" HeightRequest="100" VerticalOptions="Start" Margin="0" Padding="0" >
@@ -31,7 +31,7 @@
                 <Button Text="Agregar" FontSize="Medium" Grid.Row="0"
                         Padding="30,15,30,15" BackgroundColor="#2d3647" 
                         HorizontalOptions="EndAndExpand"
-                        Clicked="newEntry"
+                        Clicked="NewEntry"
                         CornerRadius="6"
                         ></Button>
             </StackLayout>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Finanzas.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,7 +18,7 @@ namespace Finanzas.Views
             InitializeComponent();
       
         }
-        private void NewEntry(object sender, EventArgs e)
+        private async void NewEntry(object sender, EventArgs e)
         {
             //Validar que no estén vacíos
             if (cantidad.Text == "" ||  descripcion.Text == "")

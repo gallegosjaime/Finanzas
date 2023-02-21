@@ -3858,4 +3858,3 @@ C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas.Android\obj\Debug\110\stamp\
 C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas.Android\obj\Debug\110\android\src\crc64fd9a9121def85634\CustomEntryRenderer.java

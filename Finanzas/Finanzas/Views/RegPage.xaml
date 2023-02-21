@@ -14,45 +14,45 @@
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
-    
-        <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
-            <Entry Placeholder="Username" 
+
+    <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
+        <Entry Placeholder="Username" 
                    TextColor="Black"  
                    PlaceholderColor="Gray"
                    Text="{Binding Username}" ></Entry>
-            
-            <Entry Placeholder="Email" 
+
+        <Entry Placeholder="Email" 
                    TextColor="Black" 
                    Text="{Binding Email}" 
                    PlaceholderColor="Gray"
                    Keyboard="Email">
-                <Entry.Behaviors>
-                    <xct:EmailValidationBehavior
+            <Entry.Behaviors>
+                <xct:EmailValidationBehavior
                         x:Name="EmailValidator"
                         DecorationFlags="Trim"
                         InvalidStyle="{StaticResource InvalidEntryStyle}"/>
-                </Entry.Behaviors>
-            </Entry>
-            <Label Text="Email no valido"
+            </Entry.Behaviors>
+        </Entry>
+        <Label Text="Email no valido"
                    TextColor="Red"
                    FontSize="10"
                    IsVisible="{Binding IsNotValid, Source={x:Reference EmailValidator}}"/>
-            <Entry Placeholder="Password" 
+        <Entry Placeholder="Password" 
                    IsPassword="True" TextColor="Black" 
                    Text="{Binding Password}"
                    PlaceholderColor="Gray"></Entry>
-            
-            <Entry Placeholder="ConfirmPassword" 
+
+        <Entry Placeholder="ConfirmPassword" 
                    IsPassword="True" 
                    TextColor="Black" 
                    Text="{Binding ConfirmPassword}"
                    PlaceholderColor="Gray"></Entry>
-            
-            <Button VerticalOptions="Center" 
+
+        <Button VerticalOptions="Center" 
                     Text="Registrar" 
                     BorderWidth="1.5"
                     CornerRadius="50"
                     Command="{Binding SignUpCommand}"/>
-        </StackLayout>
-    
+    </StackLayout>
+
 </ContentPage>

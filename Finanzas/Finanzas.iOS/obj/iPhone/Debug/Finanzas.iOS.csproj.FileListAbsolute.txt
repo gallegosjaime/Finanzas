@@ -65,3 +65,5 @@ C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas.iOS\obj\iPhone\Debug\Finanza
 C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas.iOS\obj\iPhone\Debug\Finanzas.iOS.csproj.CopyComplete
 C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas.iOS\obj\iPhone\Debug\Finanzas.iOS.exe
 C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas.iOS\obj\iPhone\Debug\Finanzas.iOS.pdb
+C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas.iOS\bin\iPhone\Debug\Firebase.Auth.dll
+C:\Users\jaime\Downloads\Finanzas\Finanzas\Finanzas.iOS\bin\iPhone\Debug\Xamarin.CommunityToolkit.dll

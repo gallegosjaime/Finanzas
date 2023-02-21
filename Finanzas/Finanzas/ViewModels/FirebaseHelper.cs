@@ -3,11 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using Firebase.Database;
 using Firebase.Database.Query;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Finanzas.Models;
 
