@@ -1,26 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JoelR\\Desktop\\Finanzas\\Finanzas\\Finanzas.iOS\\Finanzas.iOS.csproj": {}
+    "C:\\Users\\jaime\\Downloads\\Finanzas\\Finanzas\\Finanzas.iOS\\Finanzas.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JoelR\\Desktop\\Finanzas\\Finanzas\\Finanzas.iOS\\Finanzas.iOS.csproj": {
+    "C:\\Users\\jaime\\Downloads\\Finanzas\\Finanzas\\Finanzas.iOS\\Finanzas.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoelR\\Desktop\\Finanzas\\Finanzas\\Finanzas.iOS\\Finanzas.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\jaime\\Downloads\\Finanzas\\Finanzas\\Finanzas.iOS\\Finanzas.iOS.csproj",
         "projectName": "Finanzas.iOS",
-        "projectPath": "C:\\Users\\JoelR\\Desktop\\Finanzas\\Finanzas\\Finanzas.iOS\\Finanzas.iOS.csproj",
-        "packagesPath": "C:\\Users\\JoelR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoelR\\Desktop\\Finanzas\\Finanzas\\Finanzas.iOS\\obj\\",
+        "projectPath": "C:\\Users\\jaime\\Downloads\\Finanzas\\Finanzas\\Finanzas.iOS\\Finanzas.iOS.csproj",
+        "packagesPath": "C:\\Users\\jaime\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jaime\\Downloads\\Finanzas\\Finanzas\\Finanzas.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\JoelR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jaime\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"
@@ -32,8 +34,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\JoelR\\Desktop\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj": {
-                "projectPath": "C:\\Users\\JoelR\\Desktop\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj"
+              "C:\\Users\\jaime\\Downloads\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj": {
+                "projectPath": "C:\\Users\\jaime\\Downloads\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj"
               }
             }
           }
@@ -69,22 +71,24 @@
         }
       }
     },
-    "C:\\Users\\JoelR\\Desktop\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj": {
+    "C:\\Users\\jaime\\Downloads\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoelR\\Desktop\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj",
+        "projectUniqueName": "C:\\Users\\jaime\\Downloads\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj",
         "projectName": "Finanzas",
-        "projectPath": "C:\\Users\\JoelR\\Desktop\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj",
-        "packagesPath": "C:\\Users\\JoelR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoelR\\Desktop\\Finanzas\\Finanzas\\Finanzas\\obj\\",
+        "projectPath": "C:\\Users\\jaime\\Downloads\\Finanzas\\Finanzas\\Finanzas\\Finanzas.csproj",
+        "packagesPath": "C:\\Users\\jaime\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jaime\\Downloads\\Finanzas\\Finanzas\\Finanzas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\JoelR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jaime\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
