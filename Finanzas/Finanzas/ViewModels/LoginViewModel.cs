@@ -41,8 +41,8 @@ namespace Finanzas.ViewModels
                         //pasa usuario a la pagina AboutPage// 
 
                         AboutPage.Username = User;
-                        await App.Current.MainPage.Navigation.PushAsync(new UserPage(User));
-                        //await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
+                        //await App.Current.MainPage.Navigation.PushAsync(new UserPage(User));
+                        await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
                     }
                     else
                         await App.Current.MainPage.DisplayAlert("Error", "Por favor introducir sus datos de manera correcta", "OK");
