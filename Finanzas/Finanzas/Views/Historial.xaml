@@ -13,14 +13,14 @@
                         <ViewCell>
                             <Grid>
                                 <Grid.RowDefinitions>
-                                    <RowDefinition Height="200"/>
+                                    <RowDefinition Height="230"/>
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="30"/>
                                 </Grid.ColumnDefinitions>
                                 <StackLayout Grid.Column="1" Grid.Row="0">
                                     <StackLayout Grid.Column="1">
-                                        <Label Text="{Binding nombreAccion}"></Label>
+                                        <Label Text="{Binding nombreAccion}" FontSize="20"></Label>
                                         <Label Text="{Binding registroID}" IsVisible="false" ></Label>
                                         <Label Text="{Binding cantidad}"></Label>
                                         <Label Text="{Binding descripcion}"></Label>
@@ -47,7 +47,6 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Label x:Name="prueba" Text="es histo"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
