@@ -65,7 +65,5 @@ namespace Finanzas.Views
         {
             Navigation.PopAsync();
         }
-
-
     }
 }

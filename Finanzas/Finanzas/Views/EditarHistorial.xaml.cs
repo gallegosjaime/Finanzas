@@ -14,7 +14,7 @@ namespace Finanzas.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class EditarHistorial : ContentPage
 	{
-        private Guid id;
+        private string id;
         //Constructor
         public EditarHistorial(String id, String qty, String desc)
         {
@@ -22,7 +22,7 @@ namespace Finanzas.Views
             //Los datos recibidos se colocan en sus respectivos "inputs"
             cantidad.Text = qty;
             descripcion.Text = desc;
-            this.id = Guid.Parse(id);
+            this.id = id;
         }
         private void back(object sender, EventArgs e)
         {

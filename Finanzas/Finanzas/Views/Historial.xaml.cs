@@ -24,12 +24,15 @@ namespace Finanzas.Views
 
         public async void getData()
         {
-            var ingresos = await FirebaseHelper.getHistorialIngresos();
+            //Obtener los registros de la colección de historial
+            var ingresos = await FirebaseHelper.getHistorial();
+            //Mostrarlos en el ListView
             ListViewName.ItemsSource = ingresos;
         }
 
         protected override void OnAppearing()
         {
+            //Cada vez que se muestre la pantalla se actualiza
             getData();
         }
         private void Editar(object sender, EventArgs e)
@@ -44,6 +47,8 @@ namespace Finanzas.Views
             Label qty = (Label)listViewItem.Children[2];
             //Se selecciona el hijo #2 el cual tiene la descripción
             Label desc = (Label)listViewItem.Children[3];
+            StackLayout fechaSubida = (StackLayout)listViewItem.Children[4];
+            Label fechaSubidaLabel = (Label)fechaSubida.Children[1];
             //Se manda a llamar la pantalla de editar historial y paso los datos del registro
             Navigation.PushAsync(new EditarHistorial(idRegistro.Text, qty.Text, desc.Text));
         }
@@ -53,13 +58,12 @@ namespace Finanzas.Views
             var response = await DisplayAlert("¿Estas seguro de eliminarlo?","Eliminarlo influirá en presupuesto agregado","Si","No");
             if (response)
             {
-
                 Button button = (Button)sender;
                 StackLayout listViewItem = (StackLayout)button.Parent;
                 //Nomas se ocupa el ID del registro
                 Label idRegistro = (Label)listViewItem.Children[1];
                 //Mando a llamar la funcion para borrar registro
-                await FirebaseHelper.deleteRegistro(Guid.Parse(idRegistro.Text));
+                await FirebaseHelper.deleteRegistro(idRegistro.Text);
                 //Una vez que se elimine, actualizo los registros
                 getData();
             }
