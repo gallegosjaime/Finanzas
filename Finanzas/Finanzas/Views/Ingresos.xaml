@@ -4,15 +4,37 @@
              x:Class="Finanzas.Views.Ingresos"
              Title="Ingresar nuevo monto">
     <ContentPage.Content>
-        <StackLayout Spacing="3" Padding="15">
-            <Label Text="Cantidad" FontSize="Medium" />
-            <Entry Text="{Binding Text, Mode=TwoWay}" FontSize="Medium" />
-            <Label Text="Descripcion" FontSize="Medium" />
-            <Editor Text="{Binding Description, Mode=TwoWay}" AutoSize="TextChanges" FontSize="Medium" Margin="0" />
-            <StackLayout Orientation="Horizontal">
-                <Button Text="Cancelar"  Clicked="backToHome" HorizontalOptions="FillAndExpand"></Button>
-                <Button Text="Guardar" Clicked="NewEntry" HorizontalOptions="FillAndExpand"></Button>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="250" />
+            </Grid.RowDefinitions>
+            <Frame  CornerRadius="20"  Margin="10" Padding="0" BackgroundColor="#d7e0e5">
+                <StackLayout Spacing="3" Padding="15">
+                    <Label Margin="10,0,0,10" TextColor="#2d3647" Text="Cantidad" FontSize="Large" />
+                    <!-- X:Name es la forma para obtener los datos del "input" desde el C# (cantidad.Text)-->
+                    <Entry x:Name="cantidad"   BackgroundColor="White" Margin="0,0,0,10" BorderColor="black" HorizontalOptions="Start" WidthRequest="200" BorderWidth="4" Text="{Binding Text, Mode=TwoWay}" FontSize="Large" />
+                    <Label Margin="10,0,0,10" TextColor="Black" Text="Descripción" FontSize="Large" />
+                    <Frame CornerRadius="10" BackgroundColor="#2d3647" HeightRequest="100" VerticalOptions="Start" Padding="1" >
+                        <Frame CornerRadius="10" HeightRequest="100" VerticalOptions="Start" Margin="0" Padding="0" >
+                            <Editor x:Name="descripcion" BackgroundColor="Transparent"
+                                    AutoSize="TextChanges" FontSize="Large" Margin="0" 
+                                    Text=""
+                                    />
+                        </Frame>
+                    </Frame>
+                </StackLayout>
+            </Frame>
+            <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" Grid.Row="4">
+                <!--<Button Text="Cancelar" BackgroundColor="#2d3647" Clicked="backToHome" HorizontalOptions="FillAndExpand"></Button>-->
+
+                <!--Clicked es para cuando se presione el botón ejecute un método desde el C#-->
+                <Button Text="Agregar" FontSize="Medium" Grid.Row="0"
+                        Padding="30,15,30,15" BackgroundColor="#2d3647" 
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="newEntry"
+                        CornerRadius="6"
+                        ></Button>
             </StackLayout>
-        </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

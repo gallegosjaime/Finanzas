@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Finanzas.Views.EditarHistorial">
+    <ContentPage.Content>
+        <StackLayout Spacing="3" Padding="15">
+            <Label Text="Cantidad" FontSize="Medium" />
+            <Entry x:Name="cantidad" x:DataType="x:Int64" />
+            <Label Text="Descripcion" FontSize="Medium" />
+            <Editor x:Name="descripcion" AutoSize="TextChanges" FontSize="Medium" Margin="0" />
+            <StackLayout Orientation="Horizontal">
+                <Button TextColor="#9a887c" Text="Cancelar" Clicked="back" BackgroundColor="#d7e0e5" HorizontalOptions="FillAndExpand"></Button>
+                <Button TextColor="#9a887c" Text="Guardar" Clicked="update" BackgroundColor="#d7e0e5" HorizontalOptions="FillAndExpand"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

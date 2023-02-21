@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Finanzas.Views.Historial">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView ItemsSource="{Binding ingresos}"
+                      HasUnevenRows="True"
+                      IsPullToRefreshEnabled="True"
+                      x:Name="ListViewName">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="230"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30"/>
+                                </Grid.ColumnDefinitions>
+                                <StackLayout Grid.Column="1" Grid.Row="0">
+                                    <StackLayout Grid.Column="1">
+                                        <Label Text="{Binding nombreAccion}" FontSize="20"></Label>
+                                        <Label Text="{Binding registroID}" IsVisible="false" ></Label>
+                                        <Label Text="{Binding cantidad}"></Label>
+                                        <Label Text="{Binding descripcion}"></Label>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Fecha de registro:"></Label>
+                                            <Label Text="{Binding fechaSubida}"></Label>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Se actualizó:"></Label>
+                                            <Label Text="{Binding fechaUpdate}"></Label>
+                                        </StackLayout>
+                                        <Button AbsoluteLayout.LayoutBounds="115,150,100,100"
+                                            Text="Editar" VerticalOptions="Start" Grid.Row="0"
+                                                Clicked="Editar"
+                                            HorizontalOptions="End" HeightRequest="40"></Button>
+                                        <Button AbsoluteLayout.LayoutBounds="115,150,100,100"
+                                            Text="X" VerticalOptions="Start" Grid.Row="0"
+                                                Clicked="borrarRegistro"
+                                            HorizontalOptions="End" HeightRequest="40"></Button>
+                                    </StackLayout>
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+    
+    <!--
+    fail
+                      <AbsoluteLayout AbsoluteLayout.LayoutFlags="All">
+                                    <Label Text="{Binding nombreAccion}" AbsoluteLayout.LayoutBounds="14,10,100,100" FontSize="16"></Label>
+                                    <Label Text="{Binding registroID}" IsVisible="false" ></Label>
+                                    <Label Text="Cantidad: $" AbsoluteLayout.LayoutBounds="14,40,100,100" FontSize="16"></Label>
+                                    <Label Text="{Binding cantidad}" AbsoluteLayout.LayoutBounds="105,40,100,100"  FontSize="16"></Label>
+                                    <Label Text="{Binding descripcion}" AbsoluteLayout.LayoutBounds="14,65,100,100"  FontSize="16"></Label>
+                                    <StackLayout Orientation="Horizontal" AbsoluteLayout.LayoutBounds="14,150,300,100">
+                                        <Label Text="Fecha de registro:" FontSize="13"></Label>
+                                        <Label Text="{Binding fechaSubida}" FontSize="13"></Label>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal" AbsoluteLayout.LayoutBounds="14,170,300,100">
+                                        <Label Text="Se actualizó:"></Label>
+                                        <Label Text="{Binding fechaUpdate}"></Label>
+                                    </StackLayout>
+                                    <Button AbsoluteLayout.LayoutBounds="300,150,100,100" AbsoluteLayout.LayoutFlags="None"
+                                            Text="Editar" VerticalOptions="Start" Grid.Row="0"
+                                            Clicked="Editar" FontSize="13"
+                                            HorizontalOptions="End" HeightRequest="40"></Button>
+                                    <Button AbsoluteLayout.LayoutBounds="370,5,33,33" FontSize="13" 
+                                            Text="X" Clicked="borrarRegistro" 
+                                             HeightRequest="40"></Button>
+                                </AbsoluteLayout>
+    
+    
+    -->
