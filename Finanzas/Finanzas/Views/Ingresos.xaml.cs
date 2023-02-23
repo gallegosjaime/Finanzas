@@ -38,10 +38,9 @@ namespace Finanzas.Views
 
             //FirebaseHelper = Clase donde está el código para enviar a firebase
 
-            //Paso 1: Mandar a llamar a la clase Firebase Helper
             // Estas variables son del X:Name que están en los Entry/Editor del xaml (como si fuera un ID)
-            //                                                             ↓              ↓
-            var data = await FirebaseHelper.AgregarIngresos(int.Parse(cantidad.Text), descripcion.Text);
+            //                                                             ↓              ↓                 ↓ para poder identificar el tipo de acción
+            var data = await FirebaseHelper.AgregarIngresos(int.Parse(cantidad.Text), descripcion.Text, "Ingreso");
             //                                Convertir a entero ↑
 
             //validar que la operación se haya completado

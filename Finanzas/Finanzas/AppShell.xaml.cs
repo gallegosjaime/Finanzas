@@ -14,6 +14,7 @@ namespace Finanzas
             Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
             Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
             Routing.RegisterRoute("Historial", typeof(Historial));
+            //Navigation.PushAsync(new AboutPage());
             Navigation.PushAsync(new LoginPage());
         }
         private async void OnMenuItemClicked(object sender, EventArgs e)

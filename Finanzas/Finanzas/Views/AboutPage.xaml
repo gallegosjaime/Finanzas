@@ -18,7 +18,7 @@
     <Grid>
         <ScrollView Grid.Row="0">
             <StackLayout Orientation="Vertical"  VerticalOptions="CenterAndExpand">
-                <Label Text="$12345" FontSize="50" HorizontalOptions="Center" />
+                <Label x:Name="presupuesto" FontSize="50" HorizontalOptions="Center" />
             </StackLayout>
         </ScrollView>
         <StackLayout Grid.Row="1" VerticalOptions="End" HorizontalOptions="FillAndExpand"  Margin="0,0,0,10">

@@ -41,6 +41,8 @@ namespace Finanzas.Views
             Button button = (Button)sender;
             //Se crea una variable de tipo stacklayout para obtener los hijos del mismo de donde se encuentra el botón
             StackLayout listViewItem = (StackLayout)button.Parent;
+            //Se se obtiene el hijo #1 el cual tiene el Nombre de la acción
+            Label nombreAccion = (Label)listViewItem.Children[0];
             //Se selecciona el hijo #2 el cual tiene el ID
             Label idRegistro = (Label)listViewItem.Children[1];
             //Se selecciona el hijo #2 el cual tiene la cantidad
@@ -50,7 +52,7 @@ namespace Finanzas.Views
             StackLayout fechaSubida = (StackLayout)listViewItem.Children[4];
             Label fechaSubidaLabel = (Label)fechaSubida.Children[1];
             //Se manda a llamar la pantalla de editar historial y paso los datos del registro
-            Navigation.PushAsync(new EditarHistorial(idRegistro.Text, qty.Text, desc.Text));
+            Navigation.PushAsync(new EditarHistorial(idRegistro.Text, qty.Text, desc.Text, nombreAccion.Text));
         }
         private async void borrarRegistro(object sender, EventArgs e)
         {
@@ -60,10 +62,14 @@ namespace Finanzas.Views
             {
                 Button button = (Button)sender;
                 StackLayout listViewItem = (StackLayout)button.Parent;
-                //Nomas se ocupa el ID del registro
+                //Se selecciona el tipo de petición
+                Label nombreAccion = (Label)listViewItem.Children[0];
+                //se obtiene el ID
                 Label idRegistro = (Label)listViewItem.Children[1];
+                //Se selecciona el hijo #2 el cual tiene la cantidad
+                Label qty = (Label)listViewItem.Children[2];
                 //Mando a llamar la funcion para borrar registro
-                await FirebaseHelper.deleteRegistro(idRegistro.Text);
+                await FirebaseHelper.deleteRegistro(idRegistro.Text, int.Parse(qty.Text), nombreAccion.Text);
                 //Una vez que se elimine, actualizo los registros
                 getData();
             }

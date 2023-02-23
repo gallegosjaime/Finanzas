@@ -18,7 +18,13 @@ namespace Finanzas.Views
             InitializeComponent();
             //DisplayAlert(Username, "", "Ok");
         }
-
+        protected async override void OnAppearing()
+        {
+            //Cada vez que se muestre esta pantalla se mandará a obtener el prespuesto
+            var cantidad = await Services.FirebaseHelper.getPresupuesto();
+            //Se asignará el presupuesto al label 
+            presupuesto.Text = "$ "+cantidad.cantidad.ToString();
+        }
         private void ingresos(object obj, EventArgs e)
         {
             Navigation.PushAsync(new Ingresos());
